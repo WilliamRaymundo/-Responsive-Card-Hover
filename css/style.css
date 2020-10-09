@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.card{
+	position: relative;
+	width: 600px;
+	height: 350px;
+	margin: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 20px;
+	background: linear-gradient(135deg,#853996,#27112c);
+}
